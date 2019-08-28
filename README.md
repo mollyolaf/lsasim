@@ -2,7 +2,7 @@
 
 # README
 
-Overall aim: to simulate data that mimics large-scale assessments (LSAs), including background questionnaire data and cognitive item responses that adhere to a multiple-matrix sampled design.  This package was created as part of the [Embracing Heterogeneity Project](https://embracingheterogeneity.com/).
+Overall aim: to simulate data that mimics large-scale assessments (LSAs), including background questionnaire data that correlates with latent cognitive traits and cognitive item responses that adhere to a multiple-matrix sampled design.  This package was created as part of the [Embracing Heterogeneity Project](https://embracingheterogeneity.com/).
 
 ## Development Team
   * Tyler Matta
@@ -26,7 +26,7 @@ install.packages("lsasim")
 
 [lsasim's GitHub repository](https://github.com/tmatta/lsasim/) is the central location for development of the package. Previous and test versions of lsasim can be built from this repository, but they are to be considered unstable and are not guaranteed to work properly. The development team has several coding standards and testing procedures in place to avoid issues at any branch, especially the master one, but unless you know what you are doing, we recommend you stick with the CRAN version of our package.
 
-To install lsasim from GitHub, first make sure you have an up-to-date version of the `devtools` package installed in your machine. Then, run the following command in you R terminal:
+To install *lsasim* from GitHub, first make sure you have an up-to-date version of the `devtools` package installed in your machine. Then, run the following command in you R terminal:
 
 ```
 devtools::install_github("tmatta/lsasim", ref = "master")  # "ref" can be any branch, tag or commit
